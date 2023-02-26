@@ -1,0 +1,200 @@
+.population_boxWrap {
+  text-align: left;
+  background: #fafbfd;
+  position: relative;
+}
+.header_top {
+  padding: 0 20px 30px;
+  padding: 20px 50px;
+  -webkit-box-shadow: 0px 5px 13px -15px rgb(0 0 0 / 75%);
+  -moz-box-shadow: 0px 5px 13px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 5px 13px -15px rgb(0 0 0 / 75%);
+  margin-bottom: 50px;
+  background: #fff;
+}
+.header_top h2 {
+  font-size: 27px;
+  line-height: normal;
+  margin: 0;
+}
+.population_boxWrap h4 {
+  font-size: 17px;
+  margin: 0 0 20px;
+  text-align: center;
+}
+path {
+  fill: none;
+}
+.y.axisRight text {
+  fill: #000000;
+}
+.y.axisLeft text {
+  fill: #000000;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: grey;
+  stroke-width: 2;
+  shape-rendering: crispEdges;
+}
+
+.bar1 {
+  fill: #5d60ef;
+}
+.bar2 {
+  fill: #d1c9c9;
+}
+.x.axis path {
+  display: none;
+}
+
+.y.axis {
+  padding-top: 20px;
+}
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+.focus circle {
+  fill: none;
+  stroke: steelblue;
+}
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 80px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+.shortBox {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  text-align: center;
+}
+.btn_age,
+.btn_gen {
+  background: #4bb58d;
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 3px;
+  margin: 0 0px 5px;
+}
+.btn_gen span,
+.btn_age span {
+  display: block;
+  font-size: 10px;
+}
+#zoom_out,
+#zoom_in {
+  background: #999;
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+}
+.map_top_wrap {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 20px 50px;
+}
+.map_bottom_wrap {
+  display: flex;
+  vertical-align: middle;
+  justify-content: space-around;
+  padding: 0 20px 50px;
+}
+.barpieChartWrapOuter,
+.main_map,
+.barBandsWrap,
+.rangeRoundBandsWrap {
+  -webkit-box-shadow: 0px 0px 11px -6px rgb(0 0 0 / 75%);
+  -moz-box-shadow: 0px 0px 11px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 11px -6px rgb(0 0 0 / 75%);
+  padding: 20px;
+  position: relative;
+  border-radius: 10px;
+  background: #fff;
+}
+.barpieChartWrapOuter {
+  padding: 20px 50px;
+}
+.barBandsWrap {
+  padding-bottom: 40px;
+}
+.barBandinner,
+.topRightInner {
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  padding-left: 10px;
+}
+.barBandinner h4 {
+  margin: 10px 0;
+  font-size: 13px;
+}
+.main_map h4 {
+  text-align: left;
+}
+.topRightInner h4 {
+  font-size: 13px;
+  margin: 0 0 10px;
+}
+.barBandinner ul,
+.topRightInner ul {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+.barBandinner ul li,
+.topRightInner ul li {
+  padding: 3px 10px 3px 0;
+  width: auto;
+  float: left;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+.barBandinner ul {
+  text-align: center;
+}
+.barBandinner ul li {
+  float: none;
+  display: inline-block;
+}
+.barBandinner .square,
+.topRightInner .square {
+  width: 12px;
+  height: 12px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 2px;
+  border: 1px solid #999;
+}
+
+.pieChatInnter .title {
+  font-size: 13px;
+  display: block;
+}
+.pieChatInnter .population {
+  font-size: 22px;
+  display: block;
+  font-weight: 600;
+}
+.arc path {
+  stroke: #fff;
+}
